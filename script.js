@@ -455,6 +455,22 @@ const projectData = {
         ],
         tech: ["Flutter", "Firebase", "Dart", "Payment Gateway", "Real-time Chat", "File Upload"]
     },
+    medicines: {
+        title: "Medicines Orders App",
+        icon: "💊",
+        description: "A lightweight Flutter application for managing medicine orders efficiently, designed for environments without a dedicated database system. Uses Excel spreadsheets as the primary data storage and exchange format, making it ideal for small pharmacies or distributors who rely on Excel workflows.",
+        features: [
+            "Create, update, and track medicine orders",
+            "Excel spreadsheet integration for data storage",
+            "User-friendly mobile interface design",
+            "XLSX/CSV file read/write capabilities",
+            "Order management and tracking system",
+            "Ideal for small pharmacies and distributors",
+            "No database dependency required",
+            "Efficient data exchange format"
+        ],
+        tech: ["Flutter", "Dart", "Excel Integration", "XLSX/CSV", "Mobile UI", "File Processing"]
+    },
     companyapp: {
         title: "Middle East First Responders",
         icon: "🏢",
