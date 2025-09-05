@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ameen - Full-Stack Software Engineer & AI Specialist | Egypt</title>
+    <meta name="description" content="Teaching Assistant, Full-Stack Software Engineer, and AI Specialist from Egypt. Building secure, scalable, and intelligent solutions across mobile, web, desktop, robotics, and AI domains.">
+    <link rel="icon" type="image/x-icon" href="portflio_logo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="portflio_logo.ico">
+    <link rel="apple-touch-icon" href="portflio_logo.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="portflio_logo.png" alt="Mohamed Ameen" class="logo-img">
+                <span>Mohamed Ameen</span>
+            </div>
+            <div class="nav-controls">
+                <div class="theme-toggle" id="themeToggle">
+                    <button class="theme-btn" id="themeBtn" title="Toggle theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                    <div class="theme-menu" id="themeMenu">
+                        <button class="theme-option" data-theme="light">
+                            <i class="fas fa-sun"></i>
+                            <span>Light</span>
+                        </button>
+                        <button class="theme-option" data-theme="dark">
+                            <i class="fas fa-moon"></i>
+                            <span>Dark</span>
+                        </button>
+                        <button class="theme-option active" data-theme="device">
+                            <i class="fas fa-desktop"></i>
+                            <span>Device</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="portflio_logo.png" alt="Mohamed Ameen" class="hero-logo-img">
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Mohamed Ameen</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text">Teaching Assistant</span>
+                    <span class="typing-text">Full-Stack Software Engineer</span>
+                    <span class="typing-text">AI Specialist</span>
+                </div>
+                <p class="hero-description">
+                    Building secure, scalable, and intelligent solutions across mobile, web, desktop, robotics, and AI domains from Egypt.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-elements">
+                    <div class="floating-element" data-speed="2">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="floating-element" data-speed="3">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="floating-element" data-speed="1">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="floating-element" data-speed="2.5">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Teaching Assistant at the Faculty of Computers and Informatics, Zagazig University, Egypt. 
+                        Based in Egypt, I build secure, scalable, and intelligent solutions across mobile, web, desktop, robotics, and AI domains.
+                    </p>
+                    <p>
+                        My work combines academic research, enterprise-grade engineering, and innovative R&D — always focusing on 
+                        performance, usability, and impact. I bring Egyptian expertise to global technology challenges.
+                    </p>
+                    <div class="about-highlight">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>All proofs of concept for the listed projects are available upon request.</span>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Core Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">.NET Framework</span>
+                        <span class="skill-tag">.NET Core</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Fastify</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">MATLAB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">AngularJS</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">YOLO</span>
+                        <span class="skill-tag">StrongSORT</span>
+                        <span class="skill-tag">DeepOCSORT</span>
+                        <span class="skill-tag">BoT-SORT</span>
+                        <span class="skill-tag">InsightFace</span>
+                        <span class="skill-tag">DeepFace</span>
+                        <span class="skill-tag">TransReID</span>
+                        <span class="skill-tag">GANs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-microchip"></i> Robotics & IoT</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Raspberry Pi</span>
+                        <span class="skill-tag">BLE Devices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Highlighted Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="mobile" onclick="openProjectModal('smartsled')">
+                    <div class="project-icon">🛷</div>
+                    <h3>SmartSled App</h3>
+                    <p>Mobile app to control and monitor smart sled devices.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                        <span>REST APIs</span>
+                        <span>BLE</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" onclick="openProjectModal('deepcourses')">
+                    <div class="project-icon">🎓</div>
+                    <h3>DeepCourses App</h3>
+                    <p>E-learning platform for offline courses with full control of access.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" onclick="openProjectModal('refit')">
+                    <div class="project-icon">🏋️</div>
+                    <h3>ReFit App</h3>
+                    <p>Fitness tracking with workout planning and AI integration.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile" onclick="openProjectModal('wefab')">
+                    <div class="project-icon">🏭</div>
+                    <h3>WeFab Platform</h3>
+                    <p>Ultimate platform connecting consumers and businesses for custom manufacturing and design projects.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" onclick="openProjectModal('companyapp')">
+                    <div class="project-icon">🏢</div>
+                    <h3>Middle East First Responders</h3>
+                    <p>Comprehensive platform for companies to display services, courses, and manage user subscriptions.</p>
+                    <div class="project-tech">
+                        <span>Next.js</span>
+                        <span>Express.js</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" onclick="openProjectModal('erp')">
+                    <div class="project-icon">📊</div>
+                    <h3>ERP System</h3>
+                    <p>Full ERP system with Saudi ZATCA Phase 2 e-invoicing compliance.</p>
+                    <div class="project-tech">
+                        <span>AngularJS</span>
+                        <span>.NET Framework</span>
+                        <span>SQL Server</span>
+                        <span>ZATCA SDK</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" onclick="openProjectModal('pos')">
+                    <div class="project-icon">🛒</div>
+                    <h3>POS Web App</h3>
+                    <p>Multi-branch Point-of-Sale system.</p>
+                    <div class="project-tech">
+                        <span>Angular</span>
+                        <span>.NET Core</span>
+                        <span>SQLite</span>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai" onclick="openProjectModal('videoanalytics')">
+                    <div class="project-icon">👁️‍🗨️</div>
+                    <h3>AI Video Analytics App</h3>
+                    <p>Multi-camera real-time analytics, detection, tracking, and reporting.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>YOLO</span>
+                        <span>StrongSORT</span>
+                        <span>InsightFace</span>
+                        <span>Flask</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai" onclick="openProjectModal('cadview')">
+                    <div class="project-icon">🏗️</div>
+                    <h3>CADView</h3>
+                    <p>3D CAD viewer and STEP/IGES → GLB/GLTF converter with mesh optimization.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ai" onclick="openProjectModal('privacy')">
+                    <div class="project-icon">🔒</div>
+                    <h3>Privacy-Preserving Camera Analytics</h3>
+                    <p>AI system anonymizing individuals in surveillance feeds while maintaining scene utility.</p>
+                    <div class="project-tech">
+                        <span>MATLAB</span>
+                        <span>Real-time Detection</span>
+                        <span>ID Masking</span>
+                    </div>
+                    <div class="project-overlay">
+                        <span>Click for details</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Academic Research</h2>
+            <div class="research-content">
+                <div class="research-profile">
+                    <h3>ResearchGate Profile</h3>
+                    <a href="https://www.researchgate.net/profile/Mohamed-Ameen-Zaki" target="_blank" class="research-link">
+                        <i class="fab fa-researchgate"></i>
+                        researchgate.net/profile/Mohamed-Ameen-Zaki
+                    </a>
+                </div>
+                <div class="publications">
+                    <h3>Publications</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <h4>Fast encryption of color medical videos for Internet of Medical Things</h4>
+                            <p class="publication-doi">DOI: <a href="https://doi.org/10.1007/s11554-024-01547-0" target="_blank">10.1007/s11554-024-01547-0</a></p>
+                        </div>
+                        <div class="publication-item">
+                            <h4>Multimedia Security Using Encryption: A Survey</h4>
+                            <p class="publication-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2023.3287858" target="_blank">10.1109/ACCESS.2023.3287858</a></p>
+                        </div>
+                        <div class="publication-item">
+                            <h4>Fast colored video encryption using block scrambling and multi-key generation</h4>
+                            <p class="publication-doi">DOI: <a href="https://doi.org/10.1007/s00371-022-02711-y" target="_blank">10.1007/s00371-022-02711-y</a></p>
+                        </div>
+                        <div class="publication-item">
+                            <h4>Privacy Protection in Surveillance Videos Using Block Scrambling-Based Encryption and DCNN-Based Face Detection</h4>
+                            <p class="publication-doi">DOI: <a href="https://doi.org/10.1109/ACCESS.2022.3211657" target="_blank">10.1109/ACCESS.2022.3211657</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>B.Sc. in Computer Science</h3>
+                        <p>Zagazig University, Egypt</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>M.Sc. in Computer Science</h3>
+                        <p>Zagazig University, Egypt</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Teaching Assistant</h3>
+                        <p>Faculty of Computers and Informatics, Zagazig University, Egypt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:m.ameen.fci@gmail.com">m.ameen.fci@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-researchgate"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>ResearchGate</h3>
+                            <a href="https://www.researchgate.net/profile/Mohamed-Ameen-Zaki" target="_blank">View Profile</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone / WhatsApp</h3>
+                            <a href="https://wa.me/201011215748" target="_blank">+20-1011215748</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xnnbogwp" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Project Details</h2>
+                <span class="close" onclick="closeProjectModal()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="project-details">
+                    <div class="project-image">
+                        <div id="modalIcon" class="modal-icon"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-description">
+                            <h3>About This Project</h3>
+                            <p id="modalDescription"></p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul id="modalFeatures"></ul>
+                        </div>
+                        <div class="project-tech-stack">
+                            <h3>Technology Stack</h3>
+                            <div id="modalTech" class="tech-tags"></div>
+                        </div>
+                        <div class="project-links">
+                            <h3>Get In Touch</h3>
+                            <p>Interested in this project? Let's discuss how I can help you with similar solutions!</p>
+                            <div class="contact-actions">
+                                <a href="mailto:m.ameen.fci@gmail.com?subject=Project Inquiry" class="btn btn-primary">
+                                    <i class="fas fa-envelope"></i> Email Me
+                                </a>
+                                <a href="https://wa.me/201011215748?text=Hi%20Mohamed,%20I'm%20interested%20in%20your%20project!" class="btn btn-whatsapp">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/201011215748?text=Hi%20Mohamed,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-tooltip">Chat with me on WhatsApp!</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Mohamed Ameen. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="mailto:m.ameen.fci@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.researchgate.net/profile/Mohamed-Ameen-Zaki" target="_blank"><i class="fab fa-researchgate"></i></a>
+                    <a href="https://wa.me/201011215748" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
